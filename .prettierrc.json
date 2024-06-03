@@ -1,0 +1,14 @@
+{
+    "tailwindConfig":"./tailwind.config.cjs",
+    "tailwindFunctions":["clxs","cva"],
+    "trailingComma": "es5",
+    "tabWidth": 4,
+    "semi": false,
+    "singleQuote": true,
+    "importOrder":[
+        "@/components/(.*)$",
+        "@/pages/(.*)$",
+        "@/services/(.*)$"
+    ],
+    "importOrderSeparation":true
+}
