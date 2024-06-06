@@ -6,7 +6,7 @@ module.exports = {
     "plugin:@typescript-eslint/recommended",
     "plugin:react-hooks/recommended",
     "plugin:tailwindcss/recommended",
-    "plugin:storybook/recommended"
+    "plugin:storybook/recommended",
   ],
   settings: {
     tailwindcss: {

@@ -1,5 +1,19 @@
+import { Suspense, useTransition } from "react";
 import "./App.css";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 export default function App() {
-  return <h1 className="text-3xl font-bold underline">Hello world!</h1>;
+  const {t}=useTransition();
+  return (
+    <BrowserRouter basename="abc.com">
+      <Suspense fallback={<h1>loading</h1>}>
+      <Routes>
+
+      <Route path="error" element={<span>error</span>}>
+
+      </Route>
+      </Routes>
+      </Suspense>
+    </BrowserRouter>
+  );
 }

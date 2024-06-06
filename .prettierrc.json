@@ -1,4 +1,5 @@
 {
+    "plugins"
     "tailwindConfig":"./tailwind.config.cjs",
     "tailwindFunctions":["clxs","cva"],
     "trailingComma": "es5",
